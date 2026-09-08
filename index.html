@@ -260,25 +260,25 @@ const AVATARS = ['🦁','🐯','🦊','🐺','🐻','🐼','🐨','🦝','🐸',
 
 const QUESTIONS = [
   { q:"Qu'est-ce que l'IA peut faire le plus efficacement dans le recrutement ?",
-    opts:["Passer les entretiens à la place du RH","Analyser et filtrer les CV automatiquement","Décider seule des embauches","Négocier les salaires"], ans:1 },
+    opts:["Négocier les salaires","Décider seule des embauches","Analyser et filtrer les CV automatiquement","Passer les entretiens à la place du RH"], ans:2 },
   { q:"Quel outil d'IA évalue souvent les soft skills des candidats ?",
-    opts:["Un chatbot vocal","L'analyse NLP (traitement du langage)","Un algorithme de trading","Un logiciel comptable"], ans:1 },
-  { q:"Quel est le rôle le plus pertinent de l'IA vis-à-vis de la fonction DRH ?",
-    opts:["Automatiser entièrement les décisions RH stratégiques","Fournir des données et des recommandations pour éclairer les décisions humaines","Remplacer les entretiens individuels avec les collaborateurs","Se substituer au dialogue social avec les partenaires sociaux"], ans:1 },
+    opts:["L'analyse NLP (traitement du langage)","Un chatbot vocal","Un algorithme de trading","Un logiciel comptable"], ans:0 },
+  { q:"Comment l'IA transforme-t-elle concrètement le rôle du DRH au quotidien ?",
+    opts:["En automatisant uniquement la paie et les contrats","En prenant seule les décisions de licenciement","En supprimant le besoin de dialogue social","En lui donnant des outils d'aide à la décision basés sur la donnée, l'arbitrage final restant humain"], ans:3 },
   { q:"Qu'est-ce qu'un ATS dans les RH ?",
-    opts:["Un type de contrat","Un logiciel de suivi des candidatures","Une méthode d'évaluation 360°","Un indicateur de bien-être"], ans:1 },
+    opts:["Un logiciel de suivi des candidatures","Un type de contrat","Une méthode d'évaluation 360°","Un indicateur de bien-être"], ans:0 },
   { q:"Quel est le risque majeur de l'IA en RH ?",
-    opts:["Recrutement trop rapide","Biais algorithmiques discriminatoires","Coût trop faible","Trop grande précision"], ans:1 },
+    opts:["Biais algorithmiques discriminatoires","Recrutement trop rapide","Coût trop faible","Trop grande précision"], ans:0 },
   { q:"À quoi sert un outil d'IA de type 'People Analytics' en RH ?",
-    opts:["Gérer les paies automatiquement","Analyser les données RH pour anticiper les risques et talents","Organiser les plannings de congés","Remplacer les entretiens annuels"], ans:1 },
+    opts:["Gérer les paies automatiquement","Organiser les plannings de congés","Analyser les données RH pour anticiper les risques et talents","Remplacer les entretiens annuels"], ans:2 },
   { q:"Comment l'IA peut-elle aider à réduire le turnover dans une entreprise ?",
     opts:["En augmentant les salaires automatiquement","En prédisant les risques de départ grâce aux données comportementales","En supprimant les entretiens de départ","En limitant les promotions"], ans:1 },
   { q:"Dans la formation professionnelle, quel est le principal apport de l'IA ?",
-    opts:["Remplacer les formateurs humains","Personnaliser les parcours d'apprentissage selon le profil de chaque apprenant","Supprimer les certifications","Réduire la durée des formations à 1 heure"], ans:1 },
+    opts:["Remplacer les formateurs humains","Supprimer les certifications","Personnaliser les parcours d'apprentissage selon le profil de chaque apprenant","Réduire la durée des formations à 1 heure"], ans:2 },
   { q:"Quel est le principal intérêt de l'IA pour la fonction RH dans les années à venir ?",
-    opts:["Automatiser les tâches à faible valeur ajoutée pour recentrer les RH sur le conseil et l'humain","Remplacer entièrement les équipes RH","Réduire les effectifs RH de moitié","Se substituer aux décisions des managers"], ans:0 },
+    opts:["Remplacer entièrement les équipes RH","Automatiser les tâches à faible valeur ajoutée pour recentrer les RH sur le conseil et l'humain","Réduire les effectifs RH de moitié","Se substituer aux décisions des managers"], ans:1 },
   { q:"Quelle évolution est attendue pour les métiers RH avec la généralisation de l'IA ?",
-    opts:["Disparition progressive du métier","Montée en compétences vers des rôles plus stratégiques et orientés données","Externalisation totale vers des prestataires IA","Aucun changement notable"], ans:1 }
+    opts:["Disparition progressive du métier","Externalisation totale vers des prestataires IA","Aucun changement notable","Montée en compétences vers des rôles plus stratégiques et orientés données"], ans:3 }
 ];
 
 let participants = [];
